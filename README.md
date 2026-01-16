@@ -1,5 +1,5 @@
 <!-- =============================== -->
-<!-- HERO / HEADER SECTION -->
+<!-- HERO / PORTFOLIO HEADER -->
 <!-- =============================== -->
 
 <div align="center" style="padding:40px 20px;">
@@ -7,7 +7,7 @@
 <!-- Wallpaper banner -->
 <img src="assets/wallpaper.jpg" alt="Project Wallpaper" width="100%" style="border-radius:12px; max-height:400px; object-fit:cover;" />
 
-<!-- Logo overlay with border -->
+<!-- Logo overlay with circular border -->
 <img src="assets/logo.png" alt="Logo" width="120" style="
     margin-top:-80px;
     border-radius:50%;
@@ -17,7 +17,7 @@
     position:relative;
 " />
 
-<!-- Titles -->
+<!-- Project title and subtitle -->
 <h1 style="color:#1f4e79; margin-top:10px;">Where Population Meets Carbon</h1>
 <h3 style="color:#2f75b5; font-weight:400;">Europe’s Leading Countries (2021)</h3>
 <p style="color:#555555;">Advanced Cartography · Climate Data Visualization · GIS Analysis</p>
@@ -27,7 +27,7 @@
 ---
 
 <!-- =============================== -->
-<!-- CONTENT SECTION -->
+<!-- PORTFOLIO SECTIONS -->
 <!-- =============================== -->
 
 ## <span style="color:#1f4e79;">Project Overview</span>
@@ -35,9 +35,9 @@
 <div style="background-color:#f0f4f8; padding:12px; border-left:4px solid #1f4e79; border-radius:6px;">
 This project presents a **thematic choropleth map of greenhouse gas (GHG) emissions per capita across European countries**, combined with **proportional symbols representing the ten most populated European countries (2021)**.
 
-Developed as part of the **Advanced Cartography** course, the map explores the **spatial relationship between population size and per-capita carbon emissions**, applying advanced cartographic design principles to ensure clarity, accuracy, and interpretability at the continental scale.
+Developed as part of the **Advanced Cartography** course, this project explores the **spatial relationship between population size and per-capita carbon emissions**, applying advanced cartographic design principles to ensure clarity, accuracy, and interpretability at the continental scale.
 
-The visualization integrates **color-based thematic mapping** with **graduated symbols** to support comparative spatial analysis of climate-related indicators.
+The visualization integrates **color-based thematic mapping** with **graduated symbols**, supporting comparative spatial analysis of climate-related indicators.
 </div>
 
 ---
@@ -49,7 +49,7 @@ The visualization integrates **color-based thematic mapping** with **graduated s
 - Highlight the **ten most populated European countries** using proportional symbols  
 - Apply **advanced cartographic principles** in thematic map design  
 - Demonstrate appropriate **CRS selection, classification methods, and visual hierarchy**  
-- Communicate climate-related spatial patterns in an **academically rigorous manner**  
+- Communicate climate-related spatial patterns in an **academically rigorous manner**
 </div>
 
 ---
@@ -77,7 +77,6 @@ All datasets were **cleaned, harmonized, and joined at the country level** prior
 ## <span style="color:#1f4e79;">Methodology</span>
 
 <div style="background-color:#f9f9f9; padding:12px; border-left:4px solid #2f75b5; border-radius:6px;">
-
 ### <span style="color:#2f75b5;">1. Data Preparation</span>
 - GHG and population datasets processed using **Microsoft Excel**  
 - Population data filtered to extract the **ten most populated European countries**  
@@ -102,7 +101,7 @@ All datasets were **cleaned, harmonized, and joined at the country level** prior
 - Appropriate **classification scheme** for thematic clarity  
 - Clear visual contrast between choropleth colors and proportional symbols  
 - Balanced layout including **legend, scale bar, north arrow, and map elements**  
-- Integration of **SDG 13 – Climate Action** thematic context  
+- Integration of **SDG 13 – Climate Action** thematic context
 </div>
 
 ---
