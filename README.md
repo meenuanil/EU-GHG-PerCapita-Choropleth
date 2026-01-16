@@ -1,16 +1,23 @@
 <!-- =============================== -->
-<!-- HERO / HEADER -->
+<!-- HERO / PORTFOLIO HEADER -->
 <!-- =============================== -->
 
-<div align="center">
+<div align="center" style="padding:40px 20px;">
 
-<!-- Banner Wallpaper -->
-<img src="assets/360_F_533597277_TR0KD8Cn8R2KwcQNSeiZ6EERl4msxd4c.jpg" alt="Project Wallpaper" width="100%" style="border-radius:12px; max-height:400px; object-fit:cover;">
+<!-- Banner Wallpaper with border -->
+<img src="assets/360_F_533597277_TR0KD8Cn8R2KwcQNSeiZ6EERl4msxd4c.jpg" alt="Project Wallpaper" width="100%" style="border-radius:12px; border:4px solid #1f4e79; max-height:400px; object-fit:cover;">
 
 <!-- Logo Overlay -->
-<img src="assets/logo.png" alt="Logo" width="120" style="margin-top:-80px; border-radius:50%; border:4px solid #1f4e79; background-color:#ffffff; padding:5px; position:relative;">
+<img src="assets/logo.png" alt="Logo" width="120" style="
+    margin-top:-90px;
+    border-radius:50%;
+    border:4px solid #2f75b5;
+    background-color:#ffffff;
+    padding:5px;
+    position:relative;
+">
 
-<!-- Title and Subtitle -->
+<!-- Titles -->
 <h1 style="color:#1f4e79; margin-top:10px;">Where Population Meets Carbon</h1>
 <h3 style="color:#2f75b5; font-weight:400;">Europe’s Leading Countries (2021)</h3>
 <p style="color:#555555;">Advanced Cartography · Climate Data Visualization · GIS Analysis</p>
@@ -24,7 +31,7 @@
 <div style="background-color:#f0f4f8; padding:12px; border-left:4px solid #1f4e79; border-radius:6px;">
 This project presents a **thematic choropleth map of greenhouse gas (GHG) emissions per capita across European countries**, combined with **proportional symbols representing the ten most populated European countries (2021)**.
 
-Developed as part of the **Advanced Cartography** course, it explores the **spatial relationship between population size and per-capita carbon emissions**, applying advanced cartographic design principles for clarity and academic rigor.
+Developed as part of the **Advanced Cartography** course, the project explores the **spatial relationship between population size and per-capita carbon emissions**, applying advanced cartographic design principles for clarity and academic rigor.
 </div>
 
 ---
@@ -32,8 +39,8 @@ Developed as part of the **Advanced Cartography** course, it explores the **spat
 ## <span style="color:#1f4e79;">Objectives</span>
 
 <div style="background-color:#f9f9f9; padding:12px; border-left:4px solid #2f75b5; border-radius:6px;">
-- Visualize **GHG emissions per capita** (tCO₂-e per capita) across Europe  
-- Highlight the **ten most populated European countries** using proportional symbols  
+- Visualize **GHG emissions per capita** across Europe  
+- Highlight the **ten most populated European countries**  
 - Apply **advanced cartographic principles** in thematic map design  
 - Demonstrate **CRS selection, classification methods, and visual hierarchy**  
 - Communicate climate-related spatial patterns academically  
@@ -44,17 +51,12 @@ Developed as part of the **Advanced Cartography** course, it explores the **spat
 ## <span style="color:#1f4e79;">Data Sources</span>
 
 <div style="background-color:#f0f4f8; padding:12px; border-left:4px solid #1f4e79; border-radius:6px;">
-**Greenhouse Gas Emissions (per capita)**  
-- United Nations Statistics Division  
-- SDG Indicator 13.2.2 – Greenhouse gas emissions per capita  
 
-**Population Data (2021)**  
-- World Bank – Total Population, SP.POP.TOTL  
-
-**Basemap & Boundaries**  
-- Esri, TomTom, Garmin, FAO, NOAA, USGS, OpenStreetMap contributors  
-
-All datasets were **cleaned, harmonized, and joined at the country level** before visualization.
+| Dataset | Source | Notes |
+|---------|--------|-------|
+| Greenhouse Gas Emissions (per capita) | United Nations Statistics Division | SDG Indicator 13.2.2 |
+| Population Data (2021) | World Bank – SP.POP.TOTL | Top 10 countries filtered |
+| Basemap & Boundaries | Esri, TomTom, Garmin, FAO, NOAA, USGS, OpenStreetMap contributors | Cleaned and harmonized |
 </div>
 
 ---
@@ -62,9 +64,10 @@ All datasets were **cleaned, harmonized, and joined at the country level** befor
 ## <span style="color:#1f4e79;">Methodology</span>
 
 <div style="background-color:#f9f9f9; padding:12px; border-left:4px solid #2f75b5; border-radius:6px;">
+
 ### <span style="color:#2f75b5;">1. Data Preparation</span>
 - Processed datasets using **Microsoft Excel**  
-- Filtered the top 10 most populated countries  
+- Filtered top 10 most populated European countries  
 - Linked statistical data to spatial boundaries  
 
 ### <span style="color:#2f75b5;">2. Projection / CRS Selection</span>
@@ -75,6 +78,7 @@ All datasets were **cleaned, harmonized, and joined at the country level** befor
 - Choropleth mapping for GHG per capita  
 - Sequential color scheme (darker = higher emissions)  
 - Proportional symbols for population size  
+
 </div>
 
 ---
@@ -82,11 +86,11 @@ All datasets were **cleaned, harmonized, and joined at the country level** befor
 ## <span style="color:#1f4e79;">Cartographic Design Principles</span>
 
 <div style="background-color:#f0f4f8; padding:12px; border-left:4px solid #1f4e79; border-radius:6px;">
-- Normalization of data using **per capita indicators**  
-- Appropriate **classification schemes**  
-- Clear visual contrast between choropleth colors and symbols  
+- Data normalized using **per capita indicators**  
+- Appropriate classification schemes for clarity  
+- Clear visual contrast between choropleth colors and proportional symbols  
 - Balanced layout: legend, scale bar, north arrow  
-- Integration of **SDG 13 – Climate Action** context
+- Integration of **SDG 13 – Climate Action** thematic context  
 </div>
 
 ---
@@ -94,11 +98,13 @@ All datasets were **cleaned, harmonized, and joined at the country level** befor
 ## <span style="color:#1f4e79;">Tools & Software Used</span>
 
 <div style="background-color:#f9f9f9; padding:12px; border-left:4px solid #2f75b5; border-radius:6px;">
+
 | Software | Purpose |
 |----------|---------|
 | QGIS     | Spatial data processing & thematic mapping |
 | ArcGIS Pro | Cartographic layout design & refinement |
 | Microsoft Excel | Data cleaning and preparation |
+
 </div>
 
 ---
@@ -106,7 +112,7 @@ All datasets were **cleaned, harmonized, and joined at the country level** befor
 ## <span style="color:#1f4e79;">Map Output</span>
 
 <div style="text-align:center; margin-top:12px;">
-![Final Choropleth Map](outputs/final_map.png)
+<img src="outputs/final_map.png" alt="Choropleth Map" style="border:3px solid #1f4e79; border-radius:8px;">
 </div>
 
 ---
@@ -127,3 +133,8 @@ Advanced Cartography
 This project is intended for **academic and educational purposes only**.  
 All data sources retain their original licenses.
 </div>
+
+---
+
+> ⚡ **Note on Animations:** True fade-in/scroll animations are **not supported in GitHub README**. You can simulate animations using GIFs or emojis, or use **GitHub Pages HTML/CSS** for full portfolio animations.
+
