@@ -136,5 +136,5 @@ All data sources retain their original licenses.
 
 ---
 
-> ⚡ **Note on Animations:** True fade-in/scroll animations are **not supported in GitHub README**. You can simulate animations using GIFs or emojis, or use **GitHub Pages HTML/CSS** for full portfolio animations.
+
 
